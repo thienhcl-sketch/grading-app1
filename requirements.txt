@@ -1,8 +1,8 @@
-reader = easyocr.Reader(['en'], gpu=False)
-def ocr_image_pil(image):
-    img_arr = np.array(image.convert('RGB'))
-    gray = cv2.cvtColor(img_arr, cv2.COLOR_RGB2GRAY)
-    gray = cv2.bilateralFilter(gray, 9, 75, 75)
-    result = reader.readtext(gray, detail=0)
-    cleaned = [r.strip() for r in result if r.strip()]
-    return cleaned
+streamlit
+easyocr
+opencv-python-headless
+pillow
+numpy
+pandas
+torch
+torchvision
