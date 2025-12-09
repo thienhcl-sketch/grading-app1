@@ -1,0 +1,9 @@
+streamlit
+Pillow
+numpy
+pandas
+openpyxl
+requests
+fastapi
+uvicorn
+pyinstaller
