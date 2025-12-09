@@ -1,0 +1,5 @@
+{
+  "max_score": 10,
+  "length": { "min": 20 },
+  "keywords": ["because", "but", "and"]
+}
