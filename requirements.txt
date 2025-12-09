@@ -2,5 +2,7 @@ streamlit
 Pillow
 numpy
 pandas
-opencv-python-headless
+openpyxl
 easyocr
+opencv-python-headless
+python-Levenshtein
